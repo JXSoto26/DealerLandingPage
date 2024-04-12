@@ -1,27 +1,64 @@
 #main {
-  background-image: url("background.jpg");
+  background-image: url("background.webp");
 }
 
-a:hover{
-  color:#d1d5db;
+#beyond-zero {
+  background-image: url("electric-hero.jpg");
 }
 
-.login:hover{
-  color:#d1d5db;
+a:hover {
+  color: #d1d5db;
 }
 
-.tool-link a:hover{
+.login:hover {
+  color: #d1d5db;
+}
+
+.shopping-link a:hover {
+  color: red;
+}
+
+.card {
+  border-radius: 10px;
+  height: auto;
+}
+
+.tool-link a:hover {
   text-decoration: underline;
   color: #374151;
 }
 
-.footer p{
+.border-bottom {
+  border-bottom: 2px solid black;
+  height: 2px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.border {
+  border-left: 1px solid black;
+  height: 50px;
+  margin: 0 10px;
+  display: none;
+}
+
+.centered-img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  .border {
+    display: inline-block; /* Hide the border on mobile devices */
+  }
+}
+
+.footer p {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.footer-link a:hover{
+.footer-link a:hover {
   text-decoration: underline;
   color: #374151;
 }
-
